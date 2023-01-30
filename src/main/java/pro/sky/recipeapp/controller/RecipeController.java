@@ -59,7 +59,7 @@ public class RecipeController {
         if (validateService.isNotValid(recipe)) {
             return ResponseEntity.badRequest().build();
         }
-        return ResponseEntity.of(recipeService.editing(recipeId, recipe));
+        return ResponseEntity.ok(recipeService.editing(recipeId, recipe));
     }
 
     @Operation(summary = "УДАЛЕНИЕ РЕЦЕПТА", description = "Удаление рецепта")
