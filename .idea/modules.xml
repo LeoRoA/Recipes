@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/3_блок_Spring.iml" filepath="$PROJECT_DIR$/.idea/3_блок_Spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RecipeApp-master/RecipeApp.iml" filepath="$PROJECT_DIR$/RecipeApp-master/RecipeApp.iml" />
     </modules>
   </component>
 </project>

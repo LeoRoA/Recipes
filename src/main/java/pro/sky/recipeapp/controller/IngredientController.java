@@ -59,7 +59,7 @@ public class IngredientController {
         if (validateService.isNotValid(ingredient)) {
             return ResponseEntity.badRequest().build();
         }
-        return ResponseEntity.of(ingredientService.editing(ingredientId, ingredient));
+        return ResponseEntity.ok(ingredientService.editing(ingredientId, ingredient));
     }
 
     @Operation(summary = "УДАЛЕНИЕ ИНГРЕДИЕНТА", description = "Удаление ингредиента")
